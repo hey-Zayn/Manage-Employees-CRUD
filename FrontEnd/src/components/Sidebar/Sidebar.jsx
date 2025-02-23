@@ -23,9 +23,9 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <a className="tooltip tooltip-right" data-tip="Add new">
+            <Link to="/add" className="tooltip tooltip-right" data-tip="Add new">
             <Plus size={20} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
